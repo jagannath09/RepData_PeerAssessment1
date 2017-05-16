@@ -1,5 +1,17 @@
 ---
 title: "Reproducible Research: Peer Assessment 1"
+output: html_document
+keep_md: true
+---
+
+```{r setup, include=TRUE}
+# Load required packages
+library(knitr)
+library(dplyr)
+library(ggplot2)
+knitr::opts_chunk$set(echo = TRUE)
+options(scipen=999)
+```
 keep_md: true
 ---
 
